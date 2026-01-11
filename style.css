@@ -1,0 +1,33 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.location-card {
+  width: 200px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.location-card:hover {
+  transform: scale(1.05);
+}
+
+.location-card img {
+  width: 100%;
+}
+
+.location-name {
+  font-weight: bold;
+}
+
+.location-note {
+  color: gray;
+}

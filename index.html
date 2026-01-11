@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Bài 11 - Danh sách con vật</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+
+<h1>Danh sách con vật</h1>
+<div id="location" class="location"></div>
+
+<div id="footer"></div>
+
+<script src="tp.js"></script>
+<script>
+  fetch("footer.html")
+    .then(res => res.text())
+    .then(data => document.getElementById("footer").innerHTML = data);
+</script>  
+
+</body>
+</html>

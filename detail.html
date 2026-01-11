@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Chi tiết con vật</title>
+  <link rel="stylesheet" href="detail.css">
+  <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+
+<h1 id="ten"></h1>
+<p id="mota"></p>
+
+<div id="gallery" class="gallery"></div>
+
+<button onclick="backHome()">Back to Home</button>
+
+<div id="footer"></div>
+
+<script src="detail.js"></script>
+<script>
+  fetch("footer.html")
+    .then(res => res.text())
+    .then(data => document.getElementById("footer").innerHTML = data);
+</script>
+
+</body>
+</html>

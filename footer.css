@@ -1,0 +1,22 @@
+.footer {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  margin: 0;
+}
+.footer a {
+  color: #ffd966;
+  text-decoration: none;
+}
+.footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.footer iframe {
+  display: block;
+  margin: 20px auto;
+  height: 150px !important;
+}
